@@ -1,0 +1,48 @@
+body{
+    background-color: pink; 
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+div {
+    color: black;
+    font-weight: bolder;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: tomato;
+    height: 85px;
+    padding: 0 10%;
+    align-items: center;
+}
+.nav-home {
+    display: flex;
+    gap: 30px;
+}
+
+.logo {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.header {
+    color: purple;
+}
+
+.h1-header {
+    color: blue;
+}
+
+.t1-teks {
+    color: grey;
+}
+
+button {
+    background-color:red; 
+    color: blue; 
+    border-color:red; 
+    font-size: x-large;
+}
