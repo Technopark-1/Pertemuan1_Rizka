@@ -10,22 +10,31 @@ div {
     font-weight: bolder;
 }
 
+button {
+    background-color:red; 
+    color: white; 
+    border-color:red; 
+    font-size: x-large;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
-    background-color: tomato;
+    background-color: white;
     height: 85px;
     padding: 0 10%;
     align-items: center;
 }
 .nav-home {
     display: flex;
-    gap: 30px;
+    gap: 55px;
+    align-items: center;  
 }
 
-.logo {
-    font-size: larger;
-    font-weight: bolder;
+.nav-search {
+    display: flex;
+    gap: 0px;
+    align-items: center;
 }
 
 .header {
@@ -40,9 +49,13 @@ div {
     color: grey;
 }
 
-button {
-    background-color:red; 
-    color: blue; 
-    border-color:red; 
-    font-size: x-large;
+.foot {
+    display: flex;
+    background-color: white;
+    padding: 0 10%;
+    align-items: center;
+}
+
+.gambr {
+    align: "right";
 }
